@@ -1,0 +1,15 @@
+{
+    "login": {
+      "email_placeholder": "E-Mail",
+      "password_placeholder": "Passwort",
+      "forgot_password": "Passwort vergessen? Zurücksetzen",
+      "login_button": "Anmelden",
+      "register": "Noch kein Konto? Registrieren",
+      "error": "Fehler",
+      "error_enter_credentials": "Bitte geben Sie E-Mail und Passwort ein",
+      "error_invalid_credentials": "Ungültige E-Mail oder Passwort",
+      "error_generic": "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut.",
+      "error_network": "Netzwerkfehler. Bitte versuchen Sie es später erneut."
+    }
+  }
+  

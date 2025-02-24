@@ -1,0 +1,15 @@
+{
+    "login": {
+      "email_placeholder": "Correo electrónico",
+      "password_placeholder": "Contraseña",
+      "forgot_password": "¿Olvidaste tu contraseña? Restablécela",
+      "login_button": "Iniciar sesión",
+      "register": "¿No tienes una cuenta? Regístrate",
+      "error": "Error",
+      "error_enter_credentials": "Por favor, ingresa el correo y la contraseña",
+      "error_invalid_credentials": "Correo o contraseña inválidos",
+      "error_generic": "Algo salió mal. Inténtalo de nuevo más tarde.",
+      "error_network": "Error de red. Inténtalo de nuevo más tarde."
+    }
+  }
+  

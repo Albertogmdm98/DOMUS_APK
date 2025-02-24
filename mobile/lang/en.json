@@ -1,0 +1,15 @@
+{
+    "login": {
+      "email_placeholder": "Email",
+      "password_placeholder": "Password",
+      "forgot_password": "Forgot your password? Reset it",
+      "login_button": "Login",
+      "register": "Don't have an account yet? Register",
+      "error": "Error",
+      "error_enter_credentials": "Please enter both email and password",
+      "error_invalid_credentials": "Invalid email or password",
+      "error_generic": "Something went wrong. Please try again later.",
+      "error_network": "Network error. Please try again later."
+    }
+  }
+  

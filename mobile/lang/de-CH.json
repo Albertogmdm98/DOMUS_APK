@@ -1,0 +1,15 @@
+{
+    "login": {
+      "email_placeholder": "E-Mail",
+      "password_placeholder": "Passwort",
+      "forgot_password": "Passwort vergessen? Bitte zurücksetzen",
+      "login_button": "Anmelden",
+      "register": "Kein Konto? Registrieren",
+      "error": "Fehler",
+      "error_enter_credentials": "Bitte E-Mail und Passwort eingeben",
+      "error_invalid_credentials": "Ungültige E-Mail oder Passwort",
+      "error_generic": "Irgendöppis isch schief gloffe. Versuche es spöter nomol.",
+      "error_network": "Netzwerchfehler. Versuche es spöter nomol."
+    }
+  }
+  
