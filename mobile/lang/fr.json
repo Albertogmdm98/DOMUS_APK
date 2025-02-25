@@ -1,0 +1,14 @@
+{
+    "login": {
+      "email_placeholder": "Email",
+      "password_placeholder": "Mot de passe",
+      "forgot_password": "Mot de passe oublié ? Réinitialisez-le",
+      "login_button": "Connexion",
+      "register": "Vous n'avez pas encore de compte ? Inscrivez-vous",
+      "error": "Erreur",
+      "error_enter_credentials": "Veuillez saisir l'email et le mot de passe",
+      "error_invalid_credentials": "Email ou mot de passe incorrect",
+      "error_generic": "Quelque chose s'est mal passé. Veuillez réessayer plus tard.",
+      "error_network": "Erreur réseau. Veuillez réessayer plus tard."
+    }
+  }

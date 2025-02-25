@@ -1,19 +1,22 @@
 // LanguageSelectionScreen.js
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import i18n from '../i18'; // Asegúrate de que la ruta sea correcta
+import { View, Text, TouchableOpacity } from 'react-native';
+import i18n from '../i18';
 import { useNavigation } from '@react-navigation/native';
+import styles from '../styles/LanguageSelectionStyle'; // Importa los estilos
 
+// Lista de idiomas soportados
 const languages = [
-  { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: 'en', name: 'English', flag: '🇺🇸' }, 
+  { code: 'fr', name: 'French', flag: '🇫🇷' },
+  { code: 'de', name: 'German', flag: '🇩🇪' }, 
   { code: 'es', name: 'Spanish', flag: '🇪🇸' },
-  { code: 'de', name: 'German', flag: '🇩🇪' },
-  { code: 'de-CH', name: 'Swiss', flag: '🇨🇭' },
 ];
 
 const LanguageSelectionScreen = () => {
   const navigation = useNavigation();
 
+  // Función para cambiar el idioma
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
     // Navegar a la pantalla de Login después de seleccionar el idioma
@@ -40,48 +43,3 @@ const LanguageSelectionScreen = () => {
 };
 
 export default LanguageSelectionScreen;
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#004aad',
-    padding: 20,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    color: 'white',
-    fontSize: 28,
-    fontWeight: '600',
-    marginBottom: 20,
-  },
-  gridContainer: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-  },
-  languageBox: {
-    width: 140,
-    height: 140,
-    backgroundColor: 'white',
-    borderRadius: 10,
-    margin: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
-    // Sombra para iOS y Android
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
-  },
-  flag: {
-    fontSize: 50,
-    marginBottom: 10,
-  },
-  languageName: {
-    fontSize: 18,
-    color: '#004aad',
-    fontWeight: '500',
-  },
-});
